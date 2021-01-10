@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: SimSun;
+}
+
+body {
+  background-color: white;
+}
+
+body .header {
+  width: 100%;
+  height: 20%;
+  background-color: white;
+}
+
+body .header .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .header .nav-bar .logo {
+  width: 10vh;
+  height: 10vh;
+}
+
+body .header .nav-bar .btn-list {
+  position: absolute;
+  right: 5vw;
+}
+
+body .header .nav-bar .btn-list .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin-top: 3.5vh;
+}
+
+body .header .nav-bar .btn-list .btn li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 6vw;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body .header .nav-bar .btn-list .btn li a {
+  color: #201919;
+  text-decoration: none;
+}
+
+body .header .nav-bar .btn-list .btn li a:hover {
+  opacity: 0.8;
+  border-bottom: 2px solid red;
+}
+
+body .title {
+  width: 100%;
+  height: 220px;
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  background: url("/img/wall.png") no-repeat center center/cover;
+}
+
+body .title .title-word {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 180px;
+}
+
+body .title .title-word span {
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+}
+
+body .main-content {
+  width: 100%;
+  height: 800px;
+}
+
+body .main-content .word-bg {
+  width: 100%;
+  height: 800px;
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: center;
+  background: url("/img/shakehand.jpg") no-repeat center center/cover;
+  background-size: 150% auto;
+}
+
+body .main-content .word-bg .word {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 400px;
+}
+
+body .intro {
+  text-align: center;
+  margin-top: 50px;
+}
+
+body .intro div {
+  margin-top: 40px;
+}
+
+body .intro div span {
+  border-bottom: 1px solid black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+body .custom-form table {
+  background-color: blanchedalmond;
+  border: 3px solid black;
+  width: 100%;
+  height: 53vh;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+body .custom-form table td {
+  border: 2px solid black;
+  text-align: center;
+}
+
+body .contact-form table {
+  background-color: blanchedalmond;
+  border: 3px solid black;
+  width: 100%;
+  height: 53.2vh;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+body .contact-form table td {
+  border: 2px solid black;
+  text-align: center;
+}
+
+body .footer {
+  background-color: gray;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+}
+
+body .footer .footer-top {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .footer .footer-top .footer-left {
+  margin-left: 10px;
+}
+
+body .footer .footer-top .footer-right {
+  margin-right: 10px;
+}
+
+body .footer .footer-top .footer-right a:hover {
+  opacity: 0.6;
+}
+
+body .footer .footer-down {
+  width: 100%;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: dimgray;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
